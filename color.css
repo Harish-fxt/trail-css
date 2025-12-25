@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+    color: black;
+    background-color: yellow;
+}
+p {
+    color: blue;
+    text-shadow: 20px 10px 18px;
+    font-size: 18px;
+}
+
+#mb {
+    background-color: lightgray;
+    width: 300px;
+    padding: 20px;
+    }
+
+.btn{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    box-shadow: 3px 6px 5px black;
+}
+
+h2, h3 {
+    
+    font-family: arial;
+    color: darkred;    
+}
+div p {
+  color: grey;
+}
+
+div > p {
+ font-weight: bold;    
+}
+
+p + p {
+    background-color: yellowgreen;
+}
+
+h4 ~ p {
+    color: black;
+}    
+
+input[type="text"] {
+      border: 2px solid green;
+      padding: 6px;
+      outline: none;
+}
+
+input[type="password"] {
+      border: 2px solid blue;
+      padding: 6px;
+      outline: none;
+    }
+
+    a {
+       color:  black;
+       text-decoration: none;
+    }
+    
+    a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+ 
+ul  li:first-child {
+  color: blue;
+  font-weight: bold;  
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+
+tr:nth-child(odd) {
+  background-color: rgb(177, 152, 152);
+}
+
+
+tr:nth-child(even) {
+  background-color: #ac5f5f; /* light gray */
+}
